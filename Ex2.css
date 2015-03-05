@@ -1,0 +1,85 @@
+#main{
+    text-align: center;
+    }
+  #header {
+    background-color: #b2e7ff;
+    border-bottom-color: #0ab1ff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    color: black;
+    display: inline-block;
+    font-family: tahoma;
+    font-size: 24px;
+    padding: 5px;
+    text-align: center;
+    width: 990px;
+    }
+  #container{
+    display: table;
+    display: inline-block;
+    text-align: left;
+    }  
+  #nav {
+    background-color: #0ab1ff;
+    clear: left;
+    display: table-cell;
+    float: none;
+    overflow: hidden; 
+    padding: 25px 10px;  
+    position: relative;    
+    width: 230px;
+    }
+  #nav1 {
+    color: black;
+    font-family: tahoma;
+    font-size: 18px;
+    text-align: left;
+    overflow: hidden;
+    }
+  #nav2 {
+    color: white;
+    font-family: tahoma;
+    font-size: 14px;
+    text-align: left;
+    line-height:30px;
+    overflow: hidden;
+    }
+  #nav2 ul{
+    padding-left: 20px;
+    }
+  #nav3 {
+    color: black;
+    font-family: tahoma;
+    font-size: 12px;
+    overflow: hidden;
+    }
+  #section {
+    background-color: #ededed;
+    display: table-cell;
+    float: none;
+    padding: 20px;     
+    width: 710px;
+    }
+  #section1{
+    color: black;
+    font-family: tahoma;
+    font-size: 24px;
+    overflow: hidden;
+    }
+  #section2{
+    color: #802525;
+    font-family: tahoma;
+    font-size: 14px;
+    }
+  #footer {
+    background-color: #3cff78;
+    border-bottom: 2px solid #0ab1ff;
+    clear: both;
+    color: black;
+    display: inline-block;
+    font-family: tahoma;
+    font-size: 24px;
+    padding: 5px;     
+    text-align: center;
+    width: 990px;    
+    }

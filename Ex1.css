@@ -1,0 +1,116 @@
+	ul{
+       padding: 0;
+       list-style: none;
+    }
+		#menu{
+   		margin: 0px;
+    	border-bottom-color:#6d6d6d;
+    	border-bottom-style: solid;
+    	border-bottom-width: 2px;
+    	float: left;
+    	list-style-type: none;
+    	padding: 0px;
+    	text-align: center;
+    }
+		.links{
+			background-color: #cfcfcf;
+			color: black;
+			display: block;
+			float: left;
+			font-family: georgia;
+			font-size: 18px;
+			font-style: italic;
+			height: 37px;
+			margin-left: 2px;
+			padding-left: 20px;
+			padding-right: 20px;
+			text-decoration: none;
+			}
+		.links_no{
+			background-color: #cfcfcf;
+			color: black;
+			display: block;
+			float: left;
+			font-family: georgia;
+			font-size: 18px;
+			font-style: italic;
+			height: 37px;
+			padding-left: 20px;
+			padding-right: 20px;
+			text-decoration: none;
+
+		}
+		.links:hover{
+			background-color: white;
+			color: #8c8c8c;
+			font-family: georgia;
+			font-size: 18px;
+			font-style: italic;
+			height: 37px;
+			margin-left: 2px;
+			padding-left: 20px;
+			padding-right: 20px;
+			text-decoration: none;
+		}
+		.links_no:hover{
+			background-color: white;
+			color: #8c8c8c;
+			font-family: georgia;
+			font-size: 18px;
+			font-style: italic;
+			height: 37px;
+			padding-left: 20px;
+			padding-right: 20px;
+			text-decoration: none;
+		}
+		#menu ul{
+			display: none;
+
+		}
+		#menu:hover ul{
+			display: block;
+		}
+		#submenu{
+			background-color: white;
+			border: 1px solid #6d6d6d;
+			border-bottom: 0px;
+			list-style-type: none;
+			padding: 10px;
+			width: 180px;
+		}
+		.sublinks{
+			border-bottom: 2px solid #cfcfcf;
+			color: black;
+			font-family: georgia;
+			font-size: 14px;
+			font-style: italic;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			text-decoration: none;	
+		}
+		.sublinks_no{
+			color: black;
+			font-family: georgia;
+			font-size: 14px;
+			font-style: italic;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			text-decoration: none;
+		}
+		.sublinks:hover{
+			border-bottom: 2px solid #cfcfcf;
+			color: #bd0707;
+			font-family: georgia;
+			font-size: 14px;
+			font-style: italic;
+			padding-bottom: 5px;
+			padding-top: 5px;
+		}
+		.sublinks_no:hover{
+			color: #bd0707;
+			font-family: georgia;
+			font-size: 14px;
+			font-style: italic;
+			padding-bottom: 5px;
+			padding-top: 5px;
+		}
