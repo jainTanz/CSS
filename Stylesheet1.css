@@ -4,6 +4,7 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 }
 .menu{
 	border-bottom: 2px solid #6d6d6d;
@@ -16,7 +17,6 @@
 	margin-left: 2px;
 	padding-left: 20px;
 	padding-right: 20px;
-	text-decoration: none;
 }
 .links:first-child{
 	background-color: #cfcfcf;
@@ -24,7 +24,6 @@
 	font-size: 18px;
 	padding-left: 20px;
 	padding-right: 20px;
-	text-decoration: none;
 	margin-left: 0px;
 }
 .links:hover{
@@ -35,10 +34,10 @@
 	margin-left: 2px;
 	padding-left: 20px;
 	padding-right: 20px;
-	text-decoration: none;
-}
+	}
 .submenu{
-	border-bottom: 2px solid #cfcfcf;
+	border: 1px solid #cfcfcf;
+	border-bottom: 0;
 }
 .sublinks{
 	display: block;
